@@ -1,5 +1,5 @@
 {
-  "name": "overtrue/wechat",
+  "name": "denggang/wechat",
   "description": "微信SDK",
   "keywords": [
     "easywechat",
@@ -11,8 +11,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "overtrue",
-      "email": "anzhengchao@gmail.com"
+      "name": "denggang",
+      "email": "denggang@gmail.com"
     }
   ],
   "require": {
@@ -40,7 +40,7 @@
   },
   "autoload": {
     "psr-4": {
-      "EasyWeChat\\": "src/"
+      "EasyWeChat2\\": "src/"
     },
     "files": [
       "src/Kernel/Support/Helpers.php",
@@ -49,7 +49,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "EasyWeChat\\Tests\\": "tests/"
+      "EasyWeChat2\\Tests\\": "tests/"
     }
   },
   "scripts": {
