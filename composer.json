@@ -1,6 +1,7 @@
 {
   "name": "denggang/openwechat",
-  "description": "微信SDK",
+   "version": "1.0.0",
+  "description": "微信SDK,多开，可以和3.*版本共存",
   "keywords": [
     "easywechat",
     "wechat",
@@ -40,7 +41,7 @@
   },
   "autoload": {
     "psr-4": {
-      "EasyWeChat2\\": "src/"
+      "DengChat\\": "src/"
     },
     "files": [
       "src/Kernel/Support/Helpers.php",
@@ -49,7 +50,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "EasyWeChat2\\Tests\\": "tests/"
+      "DengChat\\Tests\\": "tests/"
     }
   },
   "scripts": {
